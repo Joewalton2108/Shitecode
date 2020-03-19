@@ -36,13 +36,12 @@ namespace O.O.P_assignment_2
                 {
                  
                     file2 = Console.ReadLine();
-                    text2 = FileReader2(file1);
+                    text2 = FileReader2(file2);
                     break;
                 }
                 catch (Exception)
                 {
                     Console.WriteLine("enter a valid file name");
-                    break;
                 }
             }    
             Boolean Result=comparison(text1, text2);//method that compares the two arrays 
