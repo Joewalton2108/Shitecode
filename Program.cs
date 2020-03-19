@@ -36,7 +36,7 @@ namespace O.O.P_assignment_2
                 {
                  
                     file2 = Console.ReadLine();
-                    text1 = FileReader2(file1);
+                    text2 = FileReader2(file1);
                     break;
                 }
                 catch (Exception)
